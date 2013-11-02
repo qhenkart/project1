@@ -1,8 +1,9 @@
-$basefont-family: Oxygen;
+/*$font-family-base: Oxygen;
 @import url(http://fonts.googleapis.com/css?family=Oxygen);
-
+*/
 @import 'bootstrap';
 @import 'bootstrap/theme';
+@import "bootstrap/glyphicons";
 body {
 	padding-top: 60px;
 }
@@ -14,4 +15,8 @@ body {
 	a {
 		color: $gray;
 	}
+}
+
+.horizontal {
+  float: left;
 }
